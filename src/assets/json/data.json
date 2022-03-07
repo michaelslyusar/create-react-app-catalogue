@@ -9,16 +9,44 @@
                     "imgsrc": "img/eng/IMG_1605.jpg",
                     "alt": "img alt",
                     "price": "29.99"
+                },{
+                    "id": "2",
+                    "title": "Main Title",
+                    "subTitle": "Sub title",
+                    "imgsrc": "img/eng/IMG_1605.jpg",
+                    "alt": "img alt",
+                    "price": "29.99"
+                },{
+                    "id": "3",
+                    "title": "Main Title",
+                    "subTitle": "Sub title",
+                    "imgsrc": "img/eng/IMG_1605.jpg",
+                    "alt": "img alt",
+                    "price": "29.99"
+                },{
+                    "id": "4",
+                    "title": "Main Title",
+                    "subTitle": "Sub title",
+                    "imgsrc": "img/eng/IMG_1605.jpg",
+                    "alt": "img alt",
+                    "price": "29.99"
                 }
             ],
-            "en": [],
+            "en": [{
+                "id": "1",
+                "title": "Main Title",
+                "subTitle": "Sub title",
+                "imgsrc": "img/eng/IMG_1605.jpg",
+                "alt": "img alt",
+                "price": "29.99"
+            }],
             "he": [],
             "arabic": []
         },
         "boxes": {
             "ru": [
                 {
-                    "id": "1",
+                    "id": "w",
                     "title": "Main Title",
                     "subTitle": "Sub title",
                     "imgsrc": "img/rus/IMG_0261.jpg",

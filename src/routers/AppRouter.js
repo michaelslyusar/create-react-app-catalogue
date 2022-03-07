@@ -9,7 +9,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 const AppRouter = () => (
     <Router>
         <Routes>
-            <Route path="/" element={<Home/>} />
+            <Route path="/" element={<Category category="glasses"/>} />
             <Route path="/glasses" element={<Category category="glasses"/>} />
             <Route path="/boxes" element={<Home/>} />
             <Route path="/sets" element={<Home/>} />
