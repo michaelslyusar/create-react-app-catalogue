@@ -1,11 +1,11 @@
 import React, { useEffect, useState} from 'react';
 import Cards from './cards/Cards';
-import Data from './assets/json/data.json';
+import Data from '../assets/json/data.json';
 import Pagination from './Pagination';
 
 
-const Home = () => {
-
+const Home = (category) => {
+    console.log(Data);
     const [images, setImages] = useState([]);
     const [currentPage, setCurrentPage] = useState(1);
     const [imagesPerPage, setImagesPerPage] = useState(9);

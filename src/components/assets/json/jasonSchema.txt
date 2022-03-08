@@ -1,4 +1,0 @@
--images
-    --Category(glasses,boxes,sets)
-        ---Lang(en,rus,he,Arab)
-            ----Objs

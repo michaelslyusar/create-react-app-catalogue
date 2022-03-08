@@ -1,24 +1,17 @@
 import React, { useEffect, useState } from 'react';
 import Cards from './cards/Cards';
 import Data from '../assets/json/data.json'; 
-import Pagination from './Pagination';
 
 
-const Category = ({ category }) => {
+const categories = () => {
     console.log(Data);
-    const [selectedLanguge, setSelectedLanguge] = useState('ru');
-    const [images, setImages] = useState([]);
-    const [currentPage, setCurrentPage] = useState(1);
-    const [imagesPerPage, setImagesPerPage] = useState(9);
-
-    console.log(typeof selectedLanguge);
-
-    console.log(Data.images);
+    const [categories, setCategories] = useState([]);
+    
     useEffect(() => {
         console.log(category);
         console.log(Data.images);
-        if (Data.images[category][selectedLanguge]) {
-            setImages(Data.images[category][selectedLanguge]);
+        if (Data.images) {
+            setCategories(Data.images);
         }
         console.log(Data.images.glasses[{ selectedLanguge }]);
     }, [selectedLanguge]);
@@ -30,18 +23,15 @@ const Category = ({ category }) => {
 
     console.log(currentImages);
 
-    // Change page
-    const paginate = (pageNumber) => setCurrentPage(pageNumber)
+    
     return (
         <div className="container">
-
             <div className="row rows-cols-auto">
                 <Cards images={currentImages} />
             </div>
-            <Pagination imagesPerPage={imagesPerPage} totalImages={images.length} paginate={paginate} currentPage={currentPage} />
         </div>
     )
 };
 
-export default Category;
+export default categories;
 

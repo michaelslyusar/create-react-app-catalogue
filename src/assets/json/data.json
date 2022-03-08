@@ -1,33 +1,34 @@
 {
     "images": {
         "glasses": {
+            "catImg":"",
             "ru": [
                 {
                     "id": "1",
                     "title": "Main Title",
                     "subTitle": "Sub title",
-                    "imgsrc": "img/eng/IMG_1605.jpg",
+                    "imgsrc": "https://res.cloudinary.com/hcprbpukq/image/upload/v1646727148/winetime-il/eng/IMG_1605_apmzjy.jpg",
                     "alt": "img alt",
                     "price": "29.99"
                 },{
                     "id": "2",
                     "title": "Main Title",
                     "subTitle": "Sub title",
-                    "imgsrc": "img/eng/IMG_1605.jpg",
+                    "imgsrc": "https://res.cloudinary.com/hcprbpukq/image/upload/v1646727143/winetime-il/eng/IMG_2295_kmtaxv.jpg",
                     "alt": "img alt",
                     "price": "29.99"
                 },{
                     "id": "3",
                     "title": "Main Title",
                     "subTitle": "Sub title",
-                    "imgsrc": "img/eng/IMG_1605.jpg",
+                    "imgsrc": "https://res.cloudinary.com/hcprbpukq/image/upload/v1646727139/winetime-il/eng/IMG_4272_feklwc.jpg",
                     "alt": "img alt",
                     "price": "29.99"
                 },{
                     "id": "4",
                     "title": "Main Title",
                     "subTitle": "Sub title",
-                    "imgsrc": "img/eng/IMG_1605.jpg",
+                    "imgsrc": "https://res.cloudinary.com/hcprbpukq/image/upload/v1646727135/winetime-il/eng/IMG_7252_deb11d.jpg",
                     "alt": "img alt",
                     "price": "29.99"
                 }
@@ -44,6 +45,7 @@
             "arabic": []
         },
         "boxes": {
+            "catImg":"",
             "ru": [
                 {
                     "id": "w",
@@ -59,6 +61,7 @@
             "arabic": []
         },
         "sets": {
+            "catImg":"",
             "ru": [
                 {
                     "id": "1",
